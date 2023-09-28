@@ -17,6 +17,14 @@
 		09713CBE2AC5E9E80055A195 /* MasterTaskCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CBD2AC5E9E80055A195 /* MasterTaskCodeTests.swift */; };
 		09713CC82AC5E9E80055A195 /* MasterTaskCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CC72AC5E9E80055A195 /* MasterTaskCodeUITests.swift */; };
 		09713CCA2AC5E9E80055A195 /* MasterTaskCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CC92AC5E9E80055A195 /* MasterTaskCodeUITestsLaunchTests.swift */; };
+		09713CD72AC5EA7F0055A195 /* PreparationPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CD62AC5EA7F0055A195 /* PreparationPlan.swift */; };
+		09713CDC2AC5EAB60055A195 /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CDA2AC5EAB60055A195 /* NetworkConstant.swift */; };
+		09713CDD2AC5EAB60055A195 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CDB2AC5EAB60055A195 /* NetworkManager.swift */; };
+		09713CE22AC5EAD30055A195 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CDE2AC5EAD20055A195 /* DateHelper.swift */; };
+		09713CE32AC5EAD30055A195 /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CDF2AC5EAD20055A195 /* AlertVC.swift */; };
+		09713CE42AC5EAD30055A195 /* WeatherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CE02AC5EAD20055A195 /* WeatherError.swift */; };
+		09713CE52AC5EAD30055A195 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CE12AC5EAD20055A195 /* Constants.swift */; };
+		09713CE92AC5EB420055A195 /* LanchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CE82AC5EB420055A195 /* LanchScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		09713CC32AC5E9E80055A195 /* MasterTaskCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterTaskCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09713CC72AC5E9E80055A195 /* MasterTaskCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTaskCodeUITests.swift; sourceTree = "<group>"; };
 		09713CC92AC5E9E80055A195 /* MasterTaskCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTaskCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		09713CD62AC5EA7F0055A195 /* PreparationPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreparationPlan.swift; sourceTree = "<group>"; };
+		09713CDA2AC5EAB60055A195 /* NetworkConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		09713CDB2AC5EAB60055A195 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		09713CDE2AC5EAD20055A195 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		09713CDF2AC5EAD20055A195 /* AlertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
+		09713CE02AC5EAD20055A195 /* WeatherError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherError.swift; sourceTree = "<group>"; };
+		09713CE12AC5EAD20055A195 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		09713CE82AC5EB420055A195 /* LanchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanchScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +117,17 @@
 		09713CA22AC5E9E50055A195 /* MasterTaskCode */ = {
 			isa = PBXGroup;
 			children = (
+				09713CD62AC5EA7F0055A195 /* PreparationPlan.swift */,
 				09713CA32AC5E9E50055A195 /* AppDelegate.swift */,
 				09713CA52AC5E9E50055A195 /* SceneDelegate.swift */,
 				09713CA72AC5E9E50055A195 /* ViewController.swift */,
+				09713CE82AC5EB420055A195 /* LanchScreenViewController.swift */,
+				09713CEB2AC5EB590055A195 /* ViewModels */,
+				09713CEA2AC5EB4E0055A195 /* Models */,
+				09713CE72AC5EB0E0055A195 /* Services */,
+				09713CE62AC5EADA0055A195 /* Helpers */,
+				09713CEC2AC5EB7A0055A195 /* Utilities */,
 				09713CA92AC5E9E50055A195 /* Main.storyboard */,
-				09713CAF2AC5E9E70055A195 /* Assets.xcassets */,
 				09713CB12AC5E9E70055A195 /* LaunchScreen.storyboard */,
 				09713CB42AC5E9E80055A195 /* Info.plist */,
 				09713CAC2AC5E9E50055A195 /* MasterTaskCode.xcdatamodeld */,
@@ -128,6 +150,48 @@
 				09713CC92AC5E9E80055A195 /* MasterTaskCodeUITestsLaunchTests.swift */,
 			);
 			path = MasterTaskCodeUITests;
+			sourceTree = "<group>";
+		};
+		09713CE62AC5EADA0055A195 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				09713CDF2AC5EAD20055A195 /* AlertVC.swift */,
+				09713CE12AC5EAD20055A195 /* Constants.swift */,
+				09713CDE2AC5EAD20055A195 /* DateHelper.swift */,
+				09713CE02AC5EAD20055A195 /* WeatherError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		09713CE72AC5EB0E0055A195 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				09713CDA2AC5EAB60055A195 /* NetworkConstant.swift */,
+				09713CDB2AC5EAB60055A195 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		09713CEA2AC5EB4E0055A195 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		09713CEB2AC5EB590055A195 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		09713CEC2AC5EB7A0055A195 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				09713CAF2AC5E9E70055A195 /* Assets.xcassets */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +325,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09713CD72AC5EA7F0055A195 /* PreparationPlan.swift in Sources */,
+				09713CE52AC5EAD30055A195 /* Constants.swift in Sources */,
+				09713CE22AC5EAD30055A195 /* DateHelper.swift in Sources */,
 				09713CA82AC5E9E50055A195 /* ViewController.swift in Sources */,
+				09713CE32AC5EAD30055A195 /* AlertVC.swift in Sources */,
 				09713CAE2AC5E9E50055A195 /* MasterTaskCode.xcdatamodeld in Sources */,
+				09713CE42AC5EAD30055A195 /* WeatherError.swift in Sources */,
+				09713CDD2AC5EAB60055A195 /* NetworkManager.swift in Sources */,
 				09713CA42AC5E9E50055A195 /* AppDelegate.swift in Sources */,
+				09713CDC2AC5EAB60055A195 /* NetworkConstant.swift in Sources */,
 				09713CA62AC5E9E50055A195 /* SceneDelegate.swift in Sources */,
+				09713CE92AC5EB420055A195 /* LanchScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
