@@ -60,3 +60,17 @@ import Foundation
 //Search func// filter from model data
 //data pass to main view from details
 //
+
+//Best usefull apps on my repo github.
+/*
+ https://github.com/veerababum/MasterTaskCode-UIKit - full resuable code with UIkit
+ https://github.com/iOSPracticeProjects/API-Assinment1 - api example
+ 
+ 
+ https://github.com/veerababum/JPMC-NYCSchools - uikit
+ https://github.com/krishnaveeru/LululemonTaskKV - coredata
+ 
+ https://github.com/veerababum/WeatherForecastApp - SwiftUI app
+ https://github.com/veerababum/NYCSchools-SwiftUI - SwiftUI app
+ 
+ */
