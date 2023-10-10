@@ -37,6 +37,51 @@ class NetworkManager {
 }
 
 
+enum APIErrors: Error {
+    case serverError
+    case parsing
+    case badUrl
+}
+
+enum Path: String {
+    case posts = "posts/1"
+}
+
+class Network2 {
+    
+    static let manager = Network2()
+    
+    private init() {}
+    
+    let host = "https://jsonplaceholder.typicode.com/"
+    let session = URLSession(configuration: .default)
+    
+    func fetchData<T: Codable>(path: Path, onCompletion handler: @escaping ((Result<T, APIErrors>) -> Void)) {
+        guard let url = URL(string: host+path.rawValue) else {
+            handler(.failure(.badUrl))
+            return
+        }
+        
+        session.dataTask(with: url, completionHandler: { (receivedData, receivedResponse, receivedError) -> Void in
+            if receivedError != nil {
+                handler(.failure(.serverError))
+                return
+            }
+            
+            if let data = receivedData {
+                do {
+                    let decoder = JSONDecoder()
+                    let response = try decoder.decode(T.self, from: data)
+                    handler(.success(response))
+                } catch {
+                    handler(.failure(.parsing))
+                }
+            }
+        }).resume()
+    }
+}
+
+
 /*
  Informational (1xx)
 
