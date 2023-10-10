@@ -26,11 +26,10 @@
 		09713CE52AC5EAD30055A195 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CE12AC5EAD20055A195 /* Constants.swift */; };
 		09713CE92AC5EB420055A195 /* LanchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CE82AC5EB420055A195 /* LanchScreenViewController.swift */; };
 		0992B6462AD0A1B20009DA5F /* PreparationPlan in Resources */ = {isa = PBXBuildFile; fileRef = 0992B6452AD0A1B20009DA5F /* PreparationPlan */; };
-		0992B6482AD6141B0009DA5F /* NYC School Code Challenge_iOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0992B6472AD6141B0009DA5F /* NYC School Code Challenge_iOS.pdf */; };
 		0992B64A2AD614520009DA5F /* ToyotaCodingTask.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0992B6492AD614520009DA5F /* ToyotaCodingTask.pdf */; };
 		0992B64C2AD614760009DA5F /* AA Coding Exercise.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0992B64B2AD614760009DA5F /* AA Coding Exercise.pdf */; };
-		0992B64E2AD614C60009DA5F /* NYC School Code Challenge_iOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0992B64D2AD614C60009DA5F /* NYC School Code Challenge_iOS.pdf */; };
 		0992B6502AD6162A0009DA5F /* MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0992B64F2AD6162A0009DA5F /* MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf */; };
+		09CC9C642AD6186B00D02301 /* NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 09CC9C632AD6186B00D02301 /* NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,11 +73,10 @@
 		09713CE12AC5EAD20055A195 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		09713CE82AC5EB420055A195 /* LanchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanchScreenViewController.swift; sourceTree = "<group>"; };
 		0992B6452AD0A1B20009DA5F /* PreparationPlan */ = {isa = PBXFileReference; lastKnownFileType = text; path = PreparationPlan; sourceTree = "<group>"; };
-		0992B6472AD6141B0009DA5F /* NYC School Code Challenge_iOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "NYC School Code Challenge_iOS.pdf"; sourceTree = "<group>"; };
 		0992B6492AD614520009DA5F /* ToyotaCodingTask.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToyotaCodingTask.pdf; sourceTree = "<group>"; };
 		0992B64B2AD614760009DA5F /* AA Coding Exercise.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AA Coding Exercise.pdf"; sourceTree = "<group>"; };
-		0992B64D2AD614C60009DA5F /* NYC School Code Challenge_iOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "NYC School Code Challenge_iOS.pdf"; path = "../../../../../Downloads/NYC School Code Challenge_iOS.pdf"; sourceTree = "<group>"; };
 		0992B64F2AD6162A0009DA5F /* MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf"; sourceTree = "<group>"; };
+		09CC9C632AD6186B00D02301 /* NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,12 +127,8 @@
 		09713CA22AC5E9E50055A195 /* MasterTaskCode */ = {
 			isa = PBXGroup;
 			children = (
+				0992B6512AD617FC0009DA5F /* Tasks */,
 				09713CD62AC5EA7F0055A195 /* PreparationPlan.swift */,
-				0992B64F2AD6162A0009DA5F /* MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf */,
-				0992B6492AD614520009DA5F /* ToyotaCodingTask.pdf */,
-				0992B64B2AD614760009DA5F /* AA Coding Exercise.pdf */,
-				0992B6472AD6141B0009DA5F /* NYC School Code Challenge_iOS.pdf */,
-				0992B64D2AD614C60009DA5F /* NYC School Code Challenge_iOS.pdf */,
 				0992B6452AD0A1B20009DA5F /* PreparationPlan */,
 				09713CA32AC5E9E50055A195 /* AppDelegate.swift */,
 				09713CA52AC5E9E50055A195 /* SceneDelegate.swift */,
@@ -210,6 +204,17 @@
 				09713CAF2AC5E9E70055A195 /* Assets.xcassets */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0992B6512AD617FC0009DA5F /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				09CC9C632AD6186B00D02301 /* NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf */,
+				0992B64F2AD6162A0009DA5F /* MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf */,
+				0992B64B2AD614760009DA5F /* AA Coding Exercise.pdf */,
+				0992B6492AD614520009DA5F /* ToyotaCodingTask.pdf */,
+			);
+			path = Tasks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,14 +321,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CC9C642AD6186B00D02301 /* NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf in Resources */,
 				09713CB32AC5E9E70055A195 /* LaunchScreen.storyboard in Resources */,
-				0992B64E2AD614C60009DA5F /* NYC School Code Challenge_iOS.pdf in Resources */,
 				09713CB02AC5E9E70055A195 /* Assets.xcassets in Resources */,
 				09713CAB2AC5E9E50055A195 /* Main.storyboard in Resources */,
 				0992B64C2AD614760009DA5F /* AA Coding Exercise.pdf in Resources */,
 				0992B6502AD6162A0009DA5F /* MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf in Resources */,
 				0992B64A2AD614520009DA5F /* ToyotaCodingTask.pdf in Resources */,
-				0992B6482AD6141B0009DA5F /* NYC School Code Challenge_iOS.pdf in Resources */,
 				0992B6462AD0A1B20009DA5F /* PreparationPlan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
