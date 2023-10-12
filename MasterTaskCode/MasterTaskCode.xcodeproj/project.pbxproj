@@ -30,6 +30,9 @@
 		0992B64C2AD614760009DA5F /* AA Coding Exercise.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0992B64B2AD614760009DA5F /* AA Coding Exercise.pdf */; };
 		0992B6502AD6162A0009DA5F /* MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0992B64F2AD6162A0009DA5F /* MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf */; };
 		09CC9C642AD6186B00D02301 /* NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 09CC9C632AD6186B00D02301 /* NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf */; };
+		09CC9C662AD619C700D02301 /* SchoolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CC9C652AD619C700D02301 /* SchoolViewModel.swift */; };
+		09CC9C692AD619E000D02301 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CC9C672AD619E000D02301 /* School.swift */; };
+		09CC9C6A2AD619E000D02301 /* SATScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CC9C682AD619E000D02301 /* SATScore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,9 @@
 		0992B64B2AD614760009DA5F /* AA Coding Exercise.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AA Coding Exercise.pdf"; sourceTree = "<group>"; };
 		0992B64F2AD6162A0009DA5F /* MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf"; sourceTree = "<group>"; };
 		09CC9C632AD6186B00D02301 /* NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf"; sourceTree = "<group>"; };
+		09CC9C652AD619C700D02301 /* SchoolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewModel.swift; sourceTree = "<group>"; };
+		09CC9C672AD619E000D02301 /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		09CC9C682AD619E000D02301 /* SATScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SATScore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				0992B6512AD617FC0009DA5F /* Tasks */,
-				09713CD62AC5EA7F0055A195 /* PreparationPlan.swift */,
-				0992B6452AD0A1B20009DA5F /* PreparationPlan */,
 				09713CA32AC5E9E50055A195 /* AppDelegate.swift */,
 				09713CA52AC5E9E50055A195 /* SceneDelegate.swift */,
 				09713CA72AC5E9E50055A195 /* ViewController.swift */,
@@ -187,6 +191,8 @@
 		09713CEA2AC5EB4E0055A195 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				09CC9C672AD619E000D02301 /* School.swift */,
+				09CC9C682AD619E000D02301 /* SATScore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -194,6 +200,7 @@
 		09713CEB2AC5EB590055A195 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				09CC9C652AD619C700D02301 /* SchoolViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -209,6 +216,8 @@
 		0992B6512AD617FC0009DA5F /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
+				0992B6452AD0A1B20009DA5F /* PreparationPlan */,
+				09713CD62AC5EA7F0055A195 /* PreparationPlan.swift */,
 				09CC9C632AD6186B00D02301 /* NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf */,
 				0992B64F2AD6162A0009DA5F /* MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf */,
 				0992B64B2AD614760009DA5F /* AA Coding Exercise.pdf */,
@@ -356,12 +365,15 @@
 				09713CD72AC5EA7F0055A195 /* PreparationPlan.swift in Sources */,
 				09713CE52AC5EAD30055A195 /* Constants.swift in Sources */,
 				09713CE22AC5EAD30055A195 /* DateHelper.swift in Sources */,
+				09CC9C6A2AD619E000D02301 /* SATScore.swift in Sources */,
 				09713CA82AC5E9E50055A195 /* ViewController.swift in Sources */,
 				09713CE32AC5EAD30055A195 /* AlertVC.swift in Sources */,
 				09713CAE2AC5E9E50055A195 /* MasterTaskCode.xcdatamodeld in Sources */,
 				09713CE42AC5EAD30055A195 /* WeatherError.swift in Sources */,
+				09CC9C692AD619E000D02301 /* School.swift in Sources */,
 				09713CDD2AC5EAB60055A195 /* NetworkManager.swift in Sources */,
 				09713CA42AC5E9E50055A195 /* AppDelegate.swift in Sources */,
+				09CC9C662AD619C700D02301 /* SchoolViewModel.swift in Sources */,
 				09713CDC2AC5EAB60055A195 /* NetworkConstant.swift in Sources */,
 				09713CA62AC5E9E50055A195 /* SceneDelegate.swift in Sources */,
 				09713CE92AC5EB420055A195 /* LanchScreenViewController.swift in Sources */,
