@@ -7,26 +7,31 @@
 
 import Foundation
 
-class SchoolViewModel : NSObject {
+
+class SchoolViewModel: NSObject {
     
+    // Define the URL for fetching school data
     private let schoolServiceURL = "https://data.cityofnewyork.us/resource/s3k6-pzi2.json"
-    //private let schoolDetailsUrl = "https://data.cityofnewyork.us/resource/f9bf-2cp4.json"
-    var schools : [School]!
+    
+    // Store the fetched schools and filtered schools separately
+    var schools: [School] = []
     var filteredSchools: [School] = []
+    
     override init() {
-        self.schools = []
+        super.init()
+        // Initialize the arrays with empty values
+        schools = []
+        filteredSchools = []
     }
-        
+    
+    // Function to fetch schools from the API
     func fetchSchools() async {
         do {
+            // Fetch data from the API and populate both arrays
             schools = try await NetworkManager.shared.fetchData(from: schoolServiceURL)
-            // Initialize filteredSchools with all schools
             filteredSchools = schools
-
         } catch {
             print("Error fetching data: \(error)")
         }
-        
     }
 }
-

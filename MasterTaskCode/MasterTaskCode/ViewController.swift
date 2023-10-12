@@ -18,11 +18,27 @@ class ViewController: UIViewController {
         schoolModel = SchoolViewModel()
         super.viewDidLoad()
         title = "NYC School"
-        searchBar.placeholder = "Search"
+        configureSearchBar()
+        fetchAndReloadData()
         
+    }
+    // Configure the search bar
+    private func configureSearchBar() {
+        // searchBar.delegate = self
+        searchBar.placeholder = "Search"
+    }
+    
+    // Fetch and reload data asynchronously
+    private func fetchAndReloadData() {
         Task {
             await schoolModel.fetchSchools()
-            schooltableView.reloadData()
+            updateTableView()
+        }
+    }
+    // Update the table view data
+    private func updateTableView() {
+        DispatchQueue.main.async {
+            self.schooltableView.reloadData()
         }
     }
 }
@@ -44,9 +60,11 @@ extension ViewController: UITableViewDataSource {
         cell.detailTextLabel?.text = school.dbn
         let image = UIImage(systemName: "photo")
         cell.imageView?.image = image
+        
         return cell
     }
 }
+
 extension ViewController: UISearchBarDelegate {
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
@@ -72,7 +90,7 @@ extension ViewController: UISearchBarDelegate {
                 $0.schoolName.lowercased().contains(searchText.lowercased()) || $0.dbn.lowercased().contains(searchText.lowercased())
             }
         }
-        schooltableView.reloadData()
+        updateTableView()
     }
     
 }
