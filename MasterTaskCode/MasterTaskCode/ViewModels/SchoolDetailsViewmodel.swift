@@ -1,36 +1,36 @@
 //
-//  SchoolViewModel.swift
+//  SchoolDetailsViewmodel.swift
 //  MasterTaskCode
 //
-//  Created by Veerababu Mulugu on 10/10/23.
+//  Created by Veerababu Mulugu on 10/12/23.
 //
 
-import Foundation
+import UIKit
 
-
-class SchoolViewModel: NSObject {
+class SchoolDeatilsModel: NSObject {
     
     // Define the URL for fetching school data
     
     // Store the fetched schools and filtered schools separately
-    var schools: [School] = []
-    var filteredSchools: [School] = []
+    var schoolDetails: [SATScore] = []
+    var filteredSchools: [SATScore] = []
     
     override init() {
         super.init()
         // Initialize the arrays with empty values
-        schools = []
-        filteredSchools = []
+        schoolDetails = []
     }
     
     // Function to fetch schools from the API
-    func fetchSchools() async {
+    func fetchSchoolsDeatils() async {
         do {
             // Fetch data from the API and populate both arrays
-            schools = try await NetworkManager.shared.fetchData(from: NetworkConstant.schoolServiceURL)
-            filteredSchools = schools
+            schoolDetails =  try await NetworkManager.shared.fetchData(from: NetworkConstant.schoolDetailsUrl)
+            
+            filteredSchools = schoolDetails
         } catch {
             print("Error fetching data: \(error)")
         }
     }
 }
+
