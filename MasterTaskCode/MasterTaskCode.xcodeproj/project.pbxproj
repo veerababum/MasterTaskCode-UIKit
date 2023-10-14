@@ -38,6 +38,9 @@
 		09CC9C702AD875EF00D02301 /* NikeTask in Resources */ = {isa = PBXBuildFile; fileRef = 09CC9C6F2AD875EF00D02301 /* NikeTask */; };
 		09CC9C722AD8764800D02301 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CC9C712AD8764800D02301 /* LoaderView.swift */; };
 		09E16A1A2AD8F33D008B9345 /* SchoolDetailsViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E16A192AD8F33D008B9345 /* SchoolDetailsViewmodel.swift */; };
+		09E16A1D2ADB467E008B9345 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 09E16A1C2ADB467E008B9345 /* README.md */; };
+		09E16A1F2ADB46B5008B9345 /* Flightcamp in Resources */ = {isa = PBXBuildFile; fileRef = 09E16A1E2ADB46B5008B9345 /* Flightcamp */; };
+		09E16A212ADB4733008B9345 /* RSSportfolio in Resources */ = {isa = PBXBuildFile; fileRef = 09E16A202ADB4733008B9345 /* RSSportfolio */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +96,9 @@
 		09CC9C6F2AD875EF00D02301 /* NikeTask */ = {isa = PBXFileReference; lastKnownFileType = text; path = NikeTask; sourceTree = "<group>"; };
 		09CC9C712AD8764800D02301 /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		09E16A192AD8F33D008B9345 /* SchoolDetailsViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailsViewmodel.swift; sourceTree = "<group>"; };
+		09E16A1C2ADB467E008B9345 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		09E16A1E2ADB46B5008B9345 /* Flightcamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = Flightcamp; sourceTree = "<group>"; };
+		09E16A202ADB4733008B9345 /* RSSportfolio */ = {isa = PBXFileReference; lastKnownFileType = text; path = RSSportfolio; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,9 +152,7 @@
 				0992B6512AD617FC0009DA5F /* Tasks */,
 				09713CA32AC5E9E50055A195 /* AppDelegate.swift */,
 				09713CA52AC5E9E50055A195 /* SceneDelegate.swift */,
-				09713CE82AC5EB420055A195 /* LanchScreenViewController.swift */,
-				09713CA72AC5E9E50055A195 /* ViewController.swift */,
-				09CC9C6B2AD7AFAE00D02301 /* DetailsViewController.swift */,
+				09E16A1B2AD8F82A008B9345 /* Views */,
 				09713CEB2AC5EB590055A195 /* ViewModels */,
 				09713CEA2AC5EB4E0055A195 /* Models */,
 				09713CE72AC5EB0E0055A195 /* Services */,
@@ -229,9 +233,12 @@
 		0992B6512AD617FC0009DA5F /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
+				09713CD62AC5EA7F0055A195 /* PreparationPlan.swift */,
 				0992B6452AD0A1B20009DA5F /* PreparationPlan */,
 				09CC9C6F2AD875EF00D02301 /* NikeTask */,
-				09713CD62AC5EA7F0055A195 /* PreparationPlan.swift */,
+				09E16A1E2ADB46B5008B9345 /* Flightcamp */,
+				09E16A202ADB4733008B9345 /* RSSportfolio */,
+				09E16A1C2ADB467E008B9345 /* README.md */,
 				09CC9C632AD6186B00D02301 /* NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf */,
 				09CC9C6D2AD875B600D02301 /* NikeTask.pdf */,
 				0992B64F2AD6162A0009DA5F /* MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf */,
@@ -239,6 +246,16 @@
 				0992B6492AD614520009DA5F /* ToyotaCodingTask.pdf */,
 			);
 			path = Tasks;
+			sourceTree = "<group>";
+		};
+		09E16A1B2AD8F82A008B9345 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09713CE82AC5EB420055A195 /* LanchScreenViewController.swift */,
+				09713CA72AC5E9E50055A195 /* ViewController.swift */,
+				09CC9C6B2AD7AFAE00D02301 /* DetailsViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,15 +362,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E16A212ADB4733008B9345 /* RSSportfolio in Resources */,
 				09CC9C702AD875EF00D02301 /* NikeTask in Resources */,
 				09CC9C642AD6186B00D02301 /* NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf in Resources */,
 				09713CB32AC5E9E70055A195 /* LaunchScreen.storyboard in Resources */,
 				09713CB02AC5E9E70055A195 /* Assets.xcassets in Resources */,
 				09713CAB2AC5E9E50055A195 /* Main.storyboard in Resources */,
+				09E16A1F2ADB46B5008B9345 /* Flightcamp in Resources */,
 				09CC9C6E2AD875B600D02301 /* NikeTask.pdf in Resources */,
 				0992B64C2AD614760009DA5F /* AA Coding Exercise.pdf in Resources */,
 				0992B6502AD6162A0009DA5F /* MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf in Resources */,
 				0992B64A2AD614520009DA5F /* ToyotaCodingTask.pdf in Resources */,
+				09E16A1D2ADB467E008B9345 /* README.md in Resources */,
 				0992B6462AD0A1B20009DA5F /* PreparationPlan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
