@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092D87DE2ADF46EB00611180 /* Improve in Resources */ = {isa = PBXBuildFile; fileRef = 092D87DD2ADF46EB00611180 /* Improve */; };
 		09713CA42AC5E9E50055A195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CA32AC5E9E50055A195 /* AppDelegate.swift */; };
 		09713CA62AC5E9E50055A195 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CA52AC5E9E50055A195 /* SceneDelegate.swift */; };
 		09713CA82AC5E9E50055A195 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09713CA72AC5E9E50055A195 /* ViewController.swift */; };
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092D87DD2ADF46EB00611180 /* Improve */ = {isa = PBXFileReference; lastKnownFileType = text; path = Improve; sourceTree = "<group>"; };
 		09713CA02AC5E9E50055A195 /* MasterTaskCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterTaskCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09713CA32AC5E9E50055A195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09713CA52AC5E9E50055A195 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -198,8 +200,8 @@
 		09713CE72AC5EB0E0055A195 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				09713CDA2AC5EAB60055A195 /* NetworkConstant.swift */,
 				09713CDB2AC5EAB60055A195 /* NetworkManager.swift */,
+				09713CDA2AC5EAB60055A195 /* NetworkConstant.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -235,6 +237,7 @@
 			children = (
 				09713CD62AC5EA7F0055A195 /* PreparationPlan.swift */,
 				0992B6452AD0A1B20009DA5F /* PreparationPlan */,
+				092D87DD2ADF46EB00611180 /* Improve */,
 				09CC9C6F2AD875EF00D02301 /* NikeTask */,
 				09E16A1E2ADB46B5008B9345 /* Flightcamp */,
 				09E16A202ADB4733008B9345 /* RSSportfolio */,
@@ -369,6 +372,7 @@
 				09713CB02AC5E9E70055A195 /* Assets.xcassets in Resources */,
 				09713CAB2AC5E9E50055A195 /* Main.storyboard in Resources */,
 				09E16A1F2ADB46B5008B9345 /* Flightcamp in Resources */,
+				092D87DE2ADF46EB00611180 /* Improve in Resources */,
 				09CC9C6E2AD875B600D02301 /* NikeTask.pdf in Resources */,
 				0992B64C2AD614760009DA5F /* AA Coding Exercise.pdf in Resources */,
 				0992B6502AD6162A0009DA5F /* MAAD-MobileEngineerCandidateCodeExercisev2.1-050521-1950.pdf in Resources */,
