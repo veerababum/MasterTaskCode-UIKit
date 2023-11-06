@@ -79,8 +79,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        
-        // Instantiate the DetailsViewController using the identifier
+        `
+`        // Instantiate the DetailsViewController using the identifier
         if let detailsViewController = storyboard.instantiateViewController(withIdentifier: "DetailsViewController") as? DetailsViewController {
             detailsViewController.selectedDbn = schoolModel.schools[indexPath.row].dbn
             navigationController?.pushViewController(detailsViewController, animated: true)

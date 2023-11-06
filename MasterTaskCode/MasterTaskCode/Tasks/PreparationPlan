@@ -36,6 +36,7 @@ import Foundation
 //15. animations for UI
 //16. multi view and pass data
 //17. app size decrease.
+//18 rechability
 
 
 // learning
@@ -73,5 +74,16 @@ import Foundation
  
  https://github.com/veerababum/WeatherForecastApp - SwiftUI app
  https://github.com/veerababum/NYCSchools-SwiftUI - SwiftUI app
+ 
+ Sample project links in gitHub
+ 
+  ## RayWenderlich
+ 
+ 1.https://github.com/GiulianoSoria/RayWenderlich/tree/main/RayWenderlich
+ 
+ ## FightCamp take home (iOS) 🥊
+
+2.https://github.com/zakdillon/fightcamp-take-home-challenge-ios/tree/master
+
  
  */
