@@ -48,6 +48,8 @@ class ViewController: UIViewController {
             updateTableView()
         }
     }
+    
+    
     // Update the table view data
     private func updateTableView() {
         DispatchQueue.main.async {

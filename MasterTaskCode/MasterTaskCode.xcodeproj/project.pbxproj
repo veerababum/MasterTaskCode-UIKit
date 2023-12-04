@@ -38,6 +38,7 @@
 		09CC9C6E2AD875B600D02301 /* NikeTask.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 09CC9C6D2AD875B600D02301 /* NikeTask.pdf */; };
 		09CC9C702AD875EF00D02301 /* NikeTask in Resources */ = {isa = PBXBuildFile; fileRef = 09CC9C6F2AD875EF00D02301 /* NikeTask */; };
 		09CC9C722AD8764800D02301 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CC9C712AD8764800D02301 /* LoaderView.swift */; };
+		09D06C572B1E456500B5623D /* Challenge-iOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 09D06C562B1E456400B5623D /* Challenge-iOS.pdf */; };
 		09E16A1A2AD8F33D008B9345 /* SchoolDetailsViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E16A192AD8F33D008B9345 /* SchoolDetailsViewmodel.swift */; };
 		09E16A1D2ADB467E008B9345 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 09E16A1C2ADB467E008B9345 /* README.md */; };
 		09E16A1F2ADB46B5008B9345 /* Flightcamp in Resources */ = {isa = PBXBuildFile; fileRef = 09E16A1E2ADB46B5008B9345 /* Flightcamp */; };
@@ -97,6 +98,7 @@
 		09CC9C6D2AD875B600D02301 /* NikeTask.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NikeTask.pdf; sourceTree = "<group>"; };
 		09CC9C6F2AD875EF00D02301 /* NikeTask */ = {isa = PBXFileReference; lastKnownFileType = text; path = NikeTask; sourceTree = "<group>"; };
 		09CC9C712AD8764800D02301 /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		09D06C562B1E456400B5623D /* Challenge-iOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Challenge-iOS.pdf"; sourceTree = "<group>"; };
 		09E16A192AD8F33D008B9345 /* SchoolDetailsViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailsViewmodel.swift; sourceTree = "<group>"; };
 		09E16A1C2ADB467E008B9345 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		09E16A1E2ADB46B5008B9345 /* Flightcamp */ = {isa = PBXFileReference; lastKnownFileType = text; path = Flightcamp; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 				09CC9C6F2AD875EF00D02301 /* NikeTask */,
 				09E16A1E2ADB46B5008B9345 /* Flightcamp */,
 				09E16A202ADB4733008B9345 /* RSSportfolio */,
+				09D06C562B1E456400B5623D /* Challenge-iOS.pdf */,
 				09E16A1C2ADB467E008B9345 /* README.md */,
 				09CC9C632AD6186B00D02301 /* NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf */,
 				09CC9C6D2AD875B600D02301 /* NikeTask.pdf */,
@@ -365,6 +368,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09D06C572B1E456500B5623D /* Challenge-iOS.pdf in Resources */,
 				09E16A212ADB4733008B9345 /* RSSportfolio in Resources */,
 				09CC9C702AD875EF00D02301 /* NikeTask in Resources */,
 				09CC9C642AD6186B00D02301 /* NYC School Code Challenge_iOS.pdf 18-40-05-038.pdf in Resources */,
